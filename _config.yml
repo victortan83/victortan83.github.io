@@ -1,0 +1,38 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               Victor Tan
+tagline:             A Moderately Okay Data Science Blog
+url:                 http://victortan83.github.io
+paginate:            2
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Victor Tan
+  url:               
+  email:             victortan83@thisismetis.com
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://github.com/victortan83
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
+# Page List
+pages_list:       
+  About: '/about'
+  Archive: '/archive'
+  Feed: '/index.html'
